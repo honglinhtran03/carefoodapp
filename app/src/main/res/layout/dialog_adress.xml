@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:background="@drawable/border_dialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="Select Location" />
+
+        <ImageView
+            android:id="@+id/btnClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:textAlignment="textEnd"
+            app:srcCompat="@drawable/ic_baseline_close_24" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textSize="18sp"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:background="@drawable/background_edt"
+        android:hint="Enter Your Address"/>
+    <TextView
+        android:id="@+id/textView424"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:text="Phone Number" />
+
+    <EditText
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/background_edt"
+        android:ems="10"
+        android:textSize="18sp"
+        android:inputType="textPersonName"
+        android:hint="Enter Your Phone Number"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConfirm"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/backgroud_btn"
+        android:text="Confirm"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+</LinearLayout>

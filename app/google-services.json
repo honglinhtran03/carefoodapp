@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "147654025777",
+    "firebase_url": "https://carefoodapp-98f4d-default-rtdb.firebaseio.com",
+    "project_id": "carefoodapp-98f4d",
+    "storage_bucket": "carefoodapp-98f4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147654025777:android:490815e05f4652b6ed6b10",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147654025777-kq9pj1k6k3qhm1o4muukun9h69hujscd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOFnn7SHnq2t-swoGFYOVyB2ZNPwiRhUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147654025777-kq9pj1k6k3qhm1o4muukun9h69hujscd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
